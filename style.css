@@ -170,3 +170,34 @@ footer p {
     width: 100%;
     font-size: 12px;
 }
+
+.get-update-content {
+    width: 50%;
+    text-align: center;
+}
+
+.get-update-content>p {
+    width: 90%;
+}
+
+.subscribe-form {
+    padding: 60px 50px;
+    background-color: #FFF4D6;
+    margin-top: 50px;
+}
+
+.subscribe-form input {
+    width: 44%;
+    padding: 12px 10px;
+    background-color: #dddddd69;
+    border: 1px solid #dddddd69;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.subscribe-form .link-button {
+    margin-top: 0;
+    margin-left: -4px;
+    border-radius: 0 5px 5px 0;
+    padding: 12px 30px;
+}
