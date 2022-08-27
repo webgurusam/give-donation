@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-banner {
+    background-image: url(images/donation5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+
+.donate-now {
+    width: 58%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.donate-now,
+.donate-now p {
+    margin: 0 auto;
+}
+
+.donate-now h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.donate-now p {
+    width: 80%;
+}
+
+.link-button {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: tomato;
+    padding: 15px 30px;
+}
