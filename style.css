@@ -3,6 +3,33 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    color: #000000;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+p {
+    color: #868686;
+    width: 80%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.m-80 {
+    margin: 80px 0;
+}
+
 .top-banner {
     background-image: url(images/donation5.jpg);
     background-size: cover;
@@ -13,12 +40,6 @@ body {
 .donate-now {
     width: 58%;
     text-align: center;
-    color: #ffffff;
-}
-
-.donate-now,
-.donate-now p {
-    margin: 0 auto;
 }
 
 .donate-now h1 {
@@ -26,9 +47,11 @@ body {
     font-weight: bold;
 }
 
+.donate-now h1,
 .donate-now p {
-    width: 80%;
+    color: #ffffff;
 }
+
 
 .link-button {
     display: inline-block;
@@ -39,4 +62,50 @@ body {
     border-radius: 5px;
     background-color: tomato;
     padding: 15px 30px;
+    border: none;
+    font-size: 16px;
 }
+
+.donation-content {
+    width: 55%;
+    text-align: center;
+}
+
+.donation-content ul {
+    margin: 3em 0;
+}
+
+.donation-content ul li {
+    list-style: none;
+    padding: 33px 35px;
+    background-color: #86868618;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #868686;
+    font-size: 1.5em;
+}
+
+.donation-content ul li.active {
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: rgb(255, 229, 224);
+}
+
+ul li.last-child {
+    margin-right: 0;
+}
+
+.dolar-amount {
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #86868680;
+    display: block;
+    width: 100%;
+    padding-bottom: 8px;
+    font-size: 17px;
+    color: #86868680;
+    outline: none;
+}
+
+.donate-plan {}
